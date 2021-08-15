@@ -1,0 +1,6 @@
+Apr  4 06:38:09 ubuntu Daemon
+[26335]: 5]: Daemon started
+Apr  4 06:38:12 ubuntu Daemon
+[26335]: 5]: Daemon working...
+Apr  4 06:38:15 ubuntu Daemon
+[26335]: 5]: Daemon finished

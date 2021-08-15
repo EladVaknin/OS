@@ -1,0 +1,1 @@
+void hello_ariel(const char *name);

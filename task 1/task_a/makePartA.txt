@@ -1,0 +1,8 @@
+gcc -Wall -g -c main1_1.c 
+gcc -Wall -g -c hello_Ariel.c 
+gcc -Wall -g -o hello_Ariel1 main1_1.o hello_Ariel.o
+gcc -Wall -g -c main1_2.c 
+gcc -shared -o lib.so hello_Ariel.o
+gcc -Wall -g -o hello_Ariel2 main1_2.o -L. ./lib.so
+gcc -Wall -g -c main1_3.c 
+gcc -Wall -g -o hello_Ariel3 main1_3.o -ldl
